@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#start-bootstrap {
+    /* width: 100vw; */
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0C356A;
+    color: white;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero2 ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+
+/* start home */
+
+.home {
+    background-color: darkcyan;
+    height: 315px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.image2 {
+    background-color: darkblue;
+    width: 115px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.home img {
+    width: 108px;
+    height: 102px;
+    position: absolute;
+    top: -32px;
+    left: 11px;
+}
+
+.home h1 {
+    padding-top: 30px;
+}
+
+.icon {
+    padding: 20px;
+    position: relative;
+
+}
+
+.icon .a {
+    position: absolute;
+    margin: 0 auto;
+    top: -1px;
+    left: 43px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon .b {
+    position: absolute;
+    margin: 0 auto;
+    top: -1px;
+    right: 43px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#PORTFOLIO {
+    background-color: white;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+
+}
+
+#PORTFOLIO .contanir {
+    max-width: 1000px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+#PORTFOLIO .contanir .card {
+    width: 250px;
+    height: 150px;
+    background-color: #0C356A;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#PORTFOLIO .contanir .card .border {
+    width: 159px;
+    border-radius: 50%;
+    background-color: white;
+    /* margin: 0 auto; */
+    position: absolute;
+    right: 45px;
+    bottom: 8px;
+
+}
+
+#PORTFOLIO .contanir .card .border img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 13px;
+
+
+}
+
+#ABOUT {
+    background-color: darkcyan;
+    height: max-content;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-top: 20px;
+}
+
+.par {
+    display: flex;
+
+    gap: 112px;
+}
+
+.p1 {
+
+    max-width: 300px;
+}
+
+.p2 {
+    max-width: 300px;
+}
+
+button {
+    padding: 10px;
+    margin: 52px;
+}
+
+
+#CONTACTME {
+    background-color: white;
+    height: max-content;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+.yh {
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 10px;
+    padding-right: 170px;
+
+}
+
+
+.footerr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+    background-color: darkcyan;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer3 p,
+.footer2,
+.footer1 {
+    width: 300px;
+    text-align: center;
+
+}
+
+.iconf {
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.iconm {
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.link {
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+
+.footer3 a {
+    color: blue;
+}
+
+
+@media screen and (max-width:420px) {
+    html {
+        font-size: 10px;
+    }
+
+    #CONTACTME,
+    .form {
+
+        width: 300px;
+    }
+}
